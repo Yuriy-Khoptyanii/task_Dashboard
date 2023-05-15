@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  gap: 12px;
+  height: 24px;
+  width: 271px;
+
+  & > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 26px;
+    height: 24px;
+    background-color: #F5F5F5;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #404B52;
+  }
+
+  & > :nth-child(2) {
+    color: #FFFFFF;
+    background-color: #5932EA;
+    border: 1px solid #5932EA;
+  }
+
+  & > :nth-child(6) {
+    align-self: center;
+    width: 9px;
+    height: 12px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+  }
+}
