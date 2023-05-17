@@ -3,7 +3,7 @@ import './MobileTable.scss';
 import cn from 'classnames';
 import { useState } from 'react';
 
-import MoreInfo from '../../icons/moreInfo.svg';
+import { moreInfo } from '../../icons';
 import { Data } from '../../types/types';
 import { ModalMoreInfo } from '../modalMoreInfo/ModalMoreInfo';
 
@@ -49,7 +49,7 @@ export const MobileTable: React.FC<Props> = ({ filteredData }) => {
                 </td>
                 <td className="MobileTable__row__strName">
                   <button className="moreInfo" onClick={() => clickMoreIcon(row)}>
-                    <img className="moreInfo__svg" src={MoreInfo} alt="MoreInfo"></img>
+                    <img className="moreInfo__svg" src={moreInfo} alt="MoreInfo"></img>
                   </button>
                 </td>
               </tr>

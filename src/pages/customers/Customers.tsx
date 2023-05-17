@@ -6,7 +6,7 @@ import { data } from '../../api/data';
 import { MobileTable } from '../../components/mobileTable/MobileTable';
 import { Pagination } from '../../components/pagination/Pagination';
 import { Table } from '../../components/table/Table';
-import search from '../../icons/search.svg';
+import { close, search } from '../../icons';
 
 export const Customers = () => {
   const [searchItem, setSearchItem] = useState('');
@@ -37,6 +37,11 @@ export const Customers = () => {
               value={searchItem}
               onChange={(e) => setSearchItem(e.target.value)}
             />
+            {searchItem.length > 0 && (
+              <button onClick={() => setSearchItem('')} className="searchField__clean">
+                <img className="searchField__clean--icon" src={close} alt="clean" />
+              </button>
+            )}
           </div>
         </div>
 

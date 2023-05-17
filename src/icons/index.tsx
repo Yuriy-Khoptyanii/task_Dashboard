@@ -6,6 +6,8 @@ export { default as Face } from './Face.svg';
 export { HelpIcon } from './HelpIcon';
 export { IncomeIcon } from './IncomeIcon';
 export { default as Logo } from './Logo.svg';
+export { default as moreInfo } from './moreInfo.svg';
 export { ProductIcon } from './ProductIcon';
 export { PromoteIcon } from './PromoteIcon';
+export { default as search } from './search.svg';
 export { VectorIcon } from './VectorIcon';
