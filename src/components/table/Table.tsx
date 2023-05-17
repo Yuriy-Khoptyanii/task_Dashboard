@@ -41,7 +41,7 @@ export const Table: React.FC<Props> = ({ filteredData }) => {
             <td className="table__row__strName">{row.country}</td>
             <td className="table__row__strName">
               <div
-                className={cn({
+                className={cn('status', {
                   active: row.status === 'Active',
                   inActive: row.status !== 'Active',
                 })}

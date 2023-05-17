@@ -3,6 +3,7 @@ import './Customers.scss';
 import { useState } from 'react';
 
 import { data } from '../../api/data';
+import { MobileTable } from '../../components/mobileTable/MobileTable';
 import { Pagination } from '../../components/pagination/Pagination';
 import { Table } from '../../components/table/Table';
 import search from '../../icons/search.svg';
@@ -41,6 +42,7 @@ export const Customers = () => {
 
         <div className="mainInfo">
           <Table filteredData={filteredData} />
+          <MobileTable filteredData={filteredData} />
         </div>
 
         <div className="footerInfo">

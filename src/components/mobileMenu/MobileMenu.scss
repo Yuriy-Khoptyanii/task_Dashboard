@@ -1,0 +1,9 @@
+@import '../../mixins';
+
+.MobileMenu {
+  display: none;
+
+  @include onMobile {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+export { default as burger } from './burger.svg';
+export { default as close } from './close.svg';
+export { CustomersIcon } from './CustomersIcon';
+export { DashboardIcon } from './DashboardIcon';
+export { default as Face } from './Face.svg';
+export { HelpIcon } from './HelpIcon';
+export { IncomeIcon } from './IncomeIcon';
+export { default as Logo } from './Logo.svg';
+export { ProductIcon } from './ProductIcon';
+export { PromoteIcon } from './PromoteIcon';
+export { VectorIcon } from './VectorIcon';

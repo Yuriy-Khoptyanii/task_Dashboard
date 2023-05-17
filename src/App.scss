@@ -1,4 +1,21 @@
+@import './mixins';
+
 .App {
   display: flex;
   gap: 71px;
+
+  @include onMobile {
+    flex-direction: column;
+    gap: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.desktopMenu {
+  display: block;
+
+  @include onMobile {
+    display: none;
+  }
 }
